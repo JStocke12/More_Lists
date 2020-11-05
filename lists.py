@@ -1,11 +1,11 @@
 def sum_of_odd_nums(n):
-    pass
+    return sum([i for i in range(n*2) if i%2==1])
 
 def caesar_cipher(message, key):
     pass
 
 def fizzbuzz(n):
-    pass 
+    pass
 
 def main():
     print('Table of the sum for the first n odd numbers:')
