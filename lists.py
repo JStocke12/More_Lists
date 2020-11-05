@@ -5,7 +5,7 @@ def caesar_cipher(message, key):
     return ''.join([chr(ord(i)+key) for i in message])
 
 def fizzbuzz(n):
-    pass
+    return [("fizz"*(i%3==0)+"buzz"*(i%5==0)+"!").capitalize() if (i%3==0) or (i%5==0) else i for i in range(1,n+1)]
 
 def main():
     print('Table of the sum for the first n odd numbers:')
