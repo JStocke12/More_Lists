@@ -2,7 +2,7 @@ def sum_of_odd_nums(n):
     return sum([i for i in range(n*2) if i%2==1])
 
 def caesar_cipher(message, key):
-    pass
+    return ''.join([chr(ord(i)+key) for i in message])
 
 def fizzbuzz(n):
     pass
